@@ -1,0 +1,22 @@
+/* Override default styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+header {
+    background-color: #F8F5F1;
+}
+
+/* Main content */
+main {
+    background-color: #B9A9C9;
+}
+
+/* Footer */
+footer {
+    background-color: #A3C4BC;
+}
