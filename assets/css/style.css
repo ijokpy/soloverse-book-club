@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     /* Generic projecy styles*/
     color: #3a3a3a;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* Header */
