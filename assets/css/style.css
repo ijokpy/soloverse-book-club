@@ -1,3 +1,7 @@
+/* Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Quicksand:wght@300&display=swap');
+
+
 /* Override default styles */
 * {
     padding: 0;
@@ -5,7 +9,7 @@
     box-sizing: border-box;
 }
 
-/* General styles */ 
+/* General styles */
 body {
 
     min-height: 100vh;
