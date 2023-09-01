@@ -53,6 +53,10 @@ h1 {
     margin-bottom: 1em;
 }
 
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -126,5 +130,12 @@ footer {
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
