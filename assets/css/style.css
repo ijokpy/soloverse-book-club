@@ -23,6 +23,10 @@ body {
 /* Header */
 header {
     background-color: #F8F5F1;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
 }
 
 h1 {
