@@ -29,8 +29,15 @@ header {
     width: 100%;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 /* Main content */
