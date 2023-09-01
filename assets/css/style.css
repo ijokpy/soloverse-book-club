@@ -25,6 +25,10 @@ header {
     background-color: #F8F5F1;
 }
 
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: #B9A9C9;
