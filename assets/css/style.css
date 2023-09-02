@@ -31,7 +31,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: #F8F5F1;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -64,16 +64,24 @@ header a {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
+    position: relative;
     background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    top: 100%;
-    color: #A7A7A7;
+    font-size: 150%;
+
+
 }
+
+div.menu-items {
+
+    float: right;
+
+}
+
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -105,7 +113,7 @@ main {
 }
 
 #cover-text {
-    background-color: rgba(185, 169, 201, .8);
+    background-color: rgba(148, 157, 195, .8);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -175,9 +183,8 @@ main {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
+        width: 100%;
         padding-right: 1rem;
-        background-color: #F8F5F1;
     }
 
     .menu {
@@ -196,11 +203,14 @@ main {
         display: none;
     }
 
-    #logo {
-        font-size: 180%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+    .logo img {
+        max-height: 200px;
+    }
 
+    #logo-image {
+        width: 30%;
+        height: 30%;
+        padding-top: 15px;
     }
 
 
