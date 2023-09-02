@@ -108,6 +108,7 @@ main {
     background-color: rgba(185, 169, 201, .8);
     font-size: 130%;
     position: absolute;
+    top: 350px;
     right: 10px;
     bottom: 100px;
     min-height: 200px;
