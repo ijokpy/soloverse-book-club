@@ -110,12 +110,12 @@ main {
     position: absolute;
     top: 350px;
     right: 10px;
-    bottom: 100px;
+
     min-height: 200px;
     padding-top: 40px;
     padding-left: 40px;
     padding-bottom: 40px;
-    width: 400px;
+    width: 360px;
 
 }
 
