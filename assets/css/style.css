@@ -21,6 +21,14 @@ body {
     font-size: 80%;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 /* Header */
 header {
     background-color: #F8F5F1;
@@ -38,11 +46,7 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Nunito', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+
 
 .menu {
     font-size: 110%;
@@ -97,6 +101,27 @@ main {
     height: 650px;
     width: 100%;
     background: url("../images/front-view-composition-with-different-books.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(185, 169, 201, .8);
+    font-size: 130%;
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 400px;
+
+}
+
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: #ffffff;
 }
 
 /* Footer */
@@ -151,6 +176,8 @@ main {
         margin: 0 0.5rem;
 
     }
+
+
 
     /* Main content */
     main {
