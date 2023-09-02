@@ -75,7 +75,7 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-    font-size: 100;
+    font-size: 150%;
 
 
 }
@@ -126,14 +126,19 @@ main {
 
 #cover-text>h2,
 #cover-text>h3,
-#cover-text>ul {
+#cover-text-items li {
     color: #ffffff;
+}
+
+#cover-text-items {
+    flex: 1;
+
 }
 
 
 /* Reasons section */
 #reasons {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
 }
 
@@ -152,20 +157,19 @@ main {
 .content {
     display: flex;
     align-items: baseline;
-    max-width: 100%;
+    max-width: 120%;
     margin-left: 15rem;
     margin-right: 15rem;
     flex-direction: row;
 }
 
 
-.content div p {
+.content p {
     margin-top: 50px;
     padding: 10px;
-    align-items: left;
+    text-align: left;
     font-size: 120%;
-    left: 0;
-    flex: 1;
+
 
 }
 
@@ -174,8 +178,11 @@ main {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin: 10px 10px 10px;
-    flex: 1;
+    display: flex;
+    flex: 1 1 0%;
+    margin: 20px auto;
+
+
 
 }
 
@@ -248,10 +255,11 @@ main {
         max-width: 40%
     }
 
-    #cover-text>li {
-        padding-left: 20 px;
+    #cover-text-items li {
+
         position: relative;
         display: inline-block;
+        padding: 7px;
     }
 
 
@@ -269,9 +277,10 @@ main {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    #cover-text>li {
-        padding-left: 20 px;
+    #cover-text-items li {
+
         position: relative;
         display: inline-block;
+        padding: 7px;
     }
 }
