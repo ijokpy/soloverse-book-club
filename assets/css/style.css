@@ -92,6 +92,13 @@ main {
     margin-top: 47px;
 }
 
+/* Hero section */
+#hero {
+    height: 650px;
+    width: 100%;
+    background: url("../images/front-view-composition-with-different-books.webp") no-repeat center center/cover;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
