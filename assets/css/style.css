@@ -52,10 +52,13 @@ header a {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    float: right;
 }
 
 .menu>li {
-    margin-bottom: 1em;
+    margin-bottom: 2em;
+
+
 }
 
 .active {
@@ -64,24 +67,18 @@ header a {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: relative;
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
-    font-size: 150%;
+    top: 100%;
+    font-size: 100;
 
 
 }
-
-div.menu-items {
-
-    float: right;
-
-}
-
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
@@ -175,6 +172,16 @@ main {
     color: #3a3a3a;
 }
 
+@media screen and (max-width: 767px) {
+
+
+    #logo-image {
+        max-width: 70%;
+        height: auto;
+        padding: 10px;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -203,14 +210,12 @@ main {
         display: none;
     }
 
-    .logo img {
-        max-height: 200px;
-    }
 
     #logo-image {
-        width: 30%;
-        height: 30%;
+        max-width: 60%;
+
         padding-top: 15px;
+
     }
 
 
