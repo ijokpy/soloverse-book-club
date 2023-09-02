@@ -98,7 +98,7 @@ main {
     background-color: #B9A9C9;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 60px;
 }
 
 /* Hero section */
@@ -131,7 +131,6 @@ main {
 }
 
 
-
 /* Reasons section */
 #reasons {
     width: 90%;
@@ -144,19 +143,41 @@ main {
     font-size: 280%;
 }
 
-#reason-top>div,
-#reason-bottom>div {
-    line-height: 20px;
-    margin-bottom: 20px;
+.content div h3 {
+    margin-top: 2rem;
+    font-size: 170%;
+    text-align: center;
 }
 
-#benefits p {
-    padding: 0 20px;
+.content {
+    display: flex;
+    align-items: baseline;
+    max-width: 100%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    flex-direction: row;
 }
 
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
+
+.content div p {
+    margin-top: 50px;
+    padding: 10px;
+    align-items: left;
+    font-size: 120%;
+    left: 0;
+    flex: 1;
+
+}
+
+
+.content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    bottom: 30px;
+    align-items: baseline;
+
 }
 
 /* Footer */
@@ -183,6 +204,14 @@ main {
         max-width: 90%;
         height: auto;
         padding: 10px;
+    }
+
+    .content {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+        width: 80%;
+
     }
 }
 
