@@ -147,6 +147,8 @@ main {
     margin-bottom: 100px;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
+    position: absolute;
+
 
 
 }
@@ -159,6 +161,62 @@ main {
 
 }
 
+#about:hover {
+    color: #b9a9c9;
+}
+
+#about-second {
+
+    width: 50%;
+    justify-content: center;
+    color: #4b4453;
+    font-size: 130%;
+    padding: 100px 100px 100px 150px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    margin-left: 0;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+
+    float: right;
+
+
+}
+
+#about-second h2 p {
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-content: center;
+
+
+}
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Style the nice button */
+.nice-button {
+    background-color: #4b4453;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+/* Hover effect */
+.nice-button:hover {
+    background-color: #b9a9c9;
+    transform: scale(1.05);
+
+}
+
 
 /* Reasons section */
 #reasons {
@@ -167,9 +225,11 @@ main {
 }
 
 #reasons h2 {
+    margin-top: 500px;
     margin-bottom: 30px;
     text-align: center;
     font-size: 280%;
+
 }
 
 .content div h3 {
@@ -226,6 +286,42 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+
+/* Style the book list section */
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: url("../images/empty-brown-wooden-book-shelf.webp") no-repeat center center/cover;
+}
+
+/* Style individual book articles */
+.book {
+    width: calc(33.33% - 20px);
+    /* Three books per row with some spacing */
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.book h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.book p {
+    margin: 5px 0;
 }
 
 @media screen and (max-width: 767px) {
