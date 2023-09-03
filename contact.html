@@ -51,12 +51,35 @@
 
     <!-- Main content -->
     <main>
-        <section id="hero">
-            <div id="cover-text">
-                <h2>Welcome to the book club for introverts!</h2>
-                <div id="cover-text-items">
+        <section class="contact-form">
+            <div>
+                <h2>Contact Form</h2>
+                <form action="#" method="POST" action="https://formdump.codeinstitute.net">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                </div>
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit" id="submit-button">Submit</button>
+                </form>
+                <p id="completion-message" class="hidden">Thank you for your message. We'll get back to you soon!</p>
+        </section>
+        </div>
+        </section>
+
+        <section class="contact-info">
+            <div>
+                <h2>Contact Information</h2>
+                <p>If you have any questions or suggestions, feel free to contact us:</p>
+                <ul>
+                    <li>Email: <a href="mailto:info@SVbookclub.com">info@svbookclub.com</a></li>
+                    <li>Phone: <a href="tel:+123456789">+353 123456</a></li>
+                    <li>Address: 123 MAin Street, Killarney, Ireland</li>
+                </ul>
             </div>
         </section>
     </main>
