@@ -40,16 +40,34 @@ This [website](https://ijokpy.github.io/soloverse-book-club/index.html) is built
 - [Convertio.co](https://convertio.co/download/eb3ecdaee00a5454d0ad83152d3a29ff55ea90/) to convert .png images to .webp
 - [Pexels.com](https://www.pexels.com/) to download free images
 - [Pixabay.com](https://pixabay.com/) to download free images
+- [Freepik.com](https://www.freepik.com/) to download free images
+- [Designevo.com](https://www.designevo.com/) to design logo
 - [W3C HTML Validator](https://validator.w3.org/#validate_by_input) to validate HTML code
 - [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/) to validate CSS code
+- [MyColor.space](https://mycolor.space/) to generate color pallette for the website
 
 ### Testing
+
+- The manual testing involved launching the website in Chrome, FireFox, Safari
+- The website is responsive
+- Confirmed that Logo and navigation tabs are visible and are responsive
+-
 
 ## Bugs
 
 ## Validation Testing
 
 ### Deployment
+
+This project was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Launch GitHub and log in.
+2. Navigate to Repositories section and select `soloverse-book-club`.
+3. Select `Settings` and under `General` section, select `main` as default branch.
+4. Then navigate to `Pages` under `Code and automation` section.
+5. Confirm that under `Source` `Branch` is showing `main` and `/(root)`.
+6. Press `Save`.
+7. Click on the [link](https://ijokpy.github.io/soloverse-book-club/) next to `Visit Site` to launch the website.
 
 ### Credits
 
