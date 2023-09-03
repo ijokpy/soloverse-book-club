@@ -4,7 +4,7 @@
 Introvert readers can use this website to find meetup locations, attend, read own book, discuss or just observe.
 The aim to foster a sense of belonging for introverts and encourage a love for reading.
 
-This [website](https://ijokpy.github.io/soloverse-book-club/index.html) is built as a milestone Project#1 for Code Institute Full Stack Software Development course. The ![website](https://ijokpy.github.io/soloverse-book-club/index.html) is built using HTML and CSS Technologies.
+This [website](https://ijokpy.github.io/soloverse-book-club/index.html) is built as a milestone Project#1 for Code Institute Full Stack Software Development course. The [website](https://ijokpy.github.io/soloverse-book-club/index.html) is built using HTML and CSS Technologies.
 
 ![](assets/testing/responsive.PNG)
 
@@ -51,11 +51,14 @@ This [website](https://ijokpy.github.io/soloverse-book-club/index.html) is built
 - The manual testing involved launching the website in Chrome, FireFox, Safari
 - The website is responsive
 - Confirmed that Logo and navigation tabs are visible and are responsive
--
 
 ## Bugs
 
 ## Validation Testing
+
+- HTML validation via [W3 Markup](https://validator.w3.org/) complete, no errors or warning detected.
+- CSS validation via [Jigsaw](https://jigsaw.w3.org/css-validator/) complete, no errors detected.
+- Accessibility validation via [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ### Deployment
 
@@ -69,8 +72,10 @@ This project was deployed to GitHub pages. The steps to deploy are as follows:
 6. Press `Save`.
 7. Click on the [link](https://ijokpy.github.io/soloverse-book-club/) next to `Visit Site` to launch the website.
 
-### Credits
-
 ## Content
 
 ## Media
+
+### Credits
+
+-Thank you for CodeInstitute for available resources.

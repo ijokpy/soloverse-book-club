@@ -3,7 +3,7 @@
 
 
 
-/* Override default styles */
+/* Default styles */
 * {
     padding: 0;
     margin: 0;
@@ -47,7 +47,6 @@ header a {
 }
 
 
-
 .menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -57,8 +56,6 @@ header a {
 
 .menu>li {
     margin-bottom: 2em;
-
-
 }
 
 .active {
@@ -76,8 +73,6 @@ nav {
     display: none;
     top: 100%;
     font-size: 150%;
-
-
 }
 
 /* Nav toggle */
@@ -96,7 +91,6 @@ nav {
 /* Main content */
 main {
     background-color: #ffffff;
-    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 60px;
 }
@@ -119,10 +113,7 @@ main {
     padding-top: 40px;
     padding-left: 20px;
     right: 0px;
-
 }
-
-
 
 #cover-text>h2,
 #cover-text>h3,
@@ -132,7 +123,6 @@ main {
 
 #cover-text-items {
     flex: 1;
-
 }
 
 /*About section*/
@@ -148,17 +138,12 @@ main {
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
     position: absolute;
-
-
-
 }
 
 #about h2 p {
     padding-left: 20px;
     padding-top: 20px;
     justify-content: center;
-
-
 }
 
 #about:hover {
@@ -166,7 +151,6 @@ main {
 }
 
 #about-second {
-
     width: 50%;
     justify-content: center;
     color: #4b4453;
@@ -177,18 +161,13 @@ main {
     margin-left: 0;
     font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
-
     float: right;
-
-
 }
 
 #about-second h2 p {
     padding-left: 20px;
     padding-top: 20px;
     justify-content: center;
-
-
 }
 
 button {
@@ -207,14 +186,12 @@ button {
     border-radius: 4px;
     font-size: 16px;
     transition: background-color 0.3s ease, transform 0.2s ease;
-
 }
 
 /* Hover effect */
 .nice-button:hover {
     background-color: #b9a9c9;
     transform: scale(1.05);
-
 }
 
 
@@ -229,7 +206,6 @@ button {
     margin-bottom: 30px;
     text-align: center;
     font-size: 280%;
-
 }
 
 .content div h3 {
@@ -254,8 +230,6 @@ button {
     padding: 10px;
     text-align: left;
     font-size: 120%;
-
-
 }
 
 
@@ -264,15 +238,80 @@ button {
     width: 150px;
     height: 150px;
     margin-left: 30px;
-
     justify-content: space-around;
+}
+
+/* Join section */
+#join {
+    width: 100%;
+    margin: 20px auto;
+}
+
+#join h2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 280%;
+}
+
+.times div h3 {
+    margin-top: 2rem;
+    font-size: 170%;
+    text-align: center;
+}
+
+.times {
+    display: flex;
+    align-items: baseline;
+    max-width: 120%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 
+.times p {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: left;
+    font-size: 120%;
+}
 
+
+.times img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+/*Bookshelf section*/
+
+.bookshelf-intro {
+    display: flex;
+    align-items: baseline;
+    max-width: 120%;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#bookshelf-intro>h1 {
+    margin-top: 100px;
+    font-size: 170%;
+    text-align: center;
+}
+
+#bookshelf-intro>p {
+    margin-top: 100px;
+    font-size: 120%;
+    text-align: center;
 }
 
 /*Contact Form*/
-
 .contact-form,
 .contact-info {
     margin-bottom: 2rem;
@@ -355,7 +394,6 @@ a:hover {
 }
 
 
-
 /* Footer */
 #social-networks {
     text-align: center;
@@ -381,23 +419,19 @@ a:hover {
     justify-content: space-between;
     padding: 20px;
     background: url("../images/empty-brown-wooden-book-shelf.webp") no-repeat center center/cover;
+    margin-top: 50px;
 }
 
 /* Style individual book articles */
 .book {
-    width: calc(33.33% - 20px);
+    width: calc(20% - 30px);
     /* Three books per row with some spacing */
     background-color: #f9f9f9;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.book img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .book h2 {
@@ -411,14 +445,11 @@ a:hover {
 
 @media screen and (max-width: 767px) {
 
-
     #logo-image {
         max-width: 90%;
         height: auto;
         padding: 10px;
     }
-
-
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -452,9 +483,7 @@ a:hover {
 
     #logo-image {
         max-width: 90%;
-
         padding-top: 15px;
-
     }
 
     #cover-text {
@@ -462,17 +491,13 @@ a:hover {
     }
 
     #cover-text-items li {
-
         position: relative;
         display: inline-block;
         padding: 7px;
     }
 
-
-
     /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 }
@@ -484,7 +509,6 @@ a:hover {
     }
 
     #cover-text-items li {
-
         position: relative;
         display: inline-block;
         padding: 7px;
